@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>יצירת קשר — דרכא שיטים</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.0.1/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+
+<section class="pagehead"><div class="wrap">
+  <h1 class="display">יצירת קשר</h1>
+  <p>נשמח לשמוע מכם — להרשמה, לשאלות ולכל פנייה. מלאו את הטופס או פנו אלינו ישירות.</p>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <div class="contact-grid">
+    <div>
+      <div class="info-card">
+        <div class="row"><i class="ti ti-map-pin"></i><div><b>כתובת</b><span>בית ספר שיטים דרכא, ד.נ ערבה ספיר<br>מועצה אזורית ערבה תיכונה</span></div></div>
+        <div class="row"><i class="ti ti-phone"></i><div><b>טלפון</b><span>08-6592280 · 08-6581602</span></div></div>
+        <div class="row"><i class="ti ti-brand-whatsapp"></i><div><b>וואטסאפ</b><a href="https://wa.me/97286592280" target="_blank" rel="noopener">שליחת הודעה</a></div></div>
+        <div class="row"><i class="ti ti-mail"></i><div><b>דוא"ל</b><a href="mailto:tichon@shitim.co.il">tichon@shitim.co.il</a></div></div>
+        <div class="row"><i class="ti ti-brand-facebook"></i><div><b>פייסבוק</b><a href="https://www.facebook.com/shittimschool" target="_blank" rel="noopener">עמוד בית הספר</a></div></div>
+      </div>
+      <div class="doc-actions" style="margin-top:18px">
+        <a class="btn btn-ghost btn-block" href="https://docs.google.com/forms/d/e/1FAIpQLSdBNvspB-OOoFHCCseTsK270vdckgRPHfQg2Llo1_RDXLAbdA/viewform" target="_blank" rel="noopener"><i class="ti ti-pencil-plus"></i> טופס קליטה והרשמה</a>
+      </div>
+    </div>
+    <div class="form-card">
+      <h2 class="display">שליחת הודעה</h2>
+      <p class="sub">מלאו את הפרטים ונחזור אליכם בהקדם.</p>
+      <div class="form-ok" id="cform-ok"><i class="ti ti-circle-check"></i> תודה! ההודעה מוכנה — נפתח עבורכם חלון לשליחה. נחזור אליכם בהקדם.</div>
+      <form id="cform" novalidate>
+        <div class="field"><label for="f-name">שם מלא *</label><input id="f-name" type="text" autocomplete="name" placeholder="שם פרטי ומשפחה"></div>
+        <div class="form-row">
+          <div class="field"><label for="f-phone">טלפון *</label><input id="f-phone" type="tel" autocomplete="tel" placeholder="05X-XXXXXXX"></div>
+          <div class="field"><label for="f-email">דוא"ל *</label><input id="f-email" type="email" autocomplete="email" placeholder="name@example.com"></div>
+        </div>
+        <div class="field"><label for="f-subject">נושא הפנייה</label>
+          <select id="f-subject"><option>הרשמה וקליטה</option><option>חטיבת ביניים</option><option>חטיבה עליונה</option><option>הסעות</option><option>פנייה כללית</option><option>אחר</option></select>
+        </div>
+        <div class="field"><label for="f-msg">הודעה *</label><textarea id="f-msg" placeholder="כתבו לנו כאן…"></textarea></div>
+        <label class="consent"><input type="checkbox" id="f-consent"><span>אני מאשר/ת שניתן ליצור איתי קשר בנוגע לפנייה. הפרטים ישמשו את בית הספר בלבד, בהתאם למדיניות הפרטיות.</span></label>
+        <div class="form-btns">
+          <button type="submit" class="btn btn-clay">שלח/י הודעה <i class="ti ti-send plane" aria-hidden="true"></i></button>
+        </div>
+        <p class="form-note">* שדות חובה. בקונספט זה ההודעה נפתחת בתוכנת המייל שלכם; באתר החי נחבר את הטופס ישירות למערכת בית הספר.</p>
+      </form>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="mapframe">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220253.72682688088!2d35.239202855040574!3d30.394561019759575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1501806fd811564b%3A0x77ce23bf06533c3d!2z15HXmSLXoSDXqdeZ15jXmded!5e0!3m2!1siw!2sil!4v1565685757667!5m2!1siw!2sil" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="מפת בית הספר"></iframe>
+  </div>
+</div></section>
+
+<div id="site-footer"></div>
+<script src="js/layout.js"></script>
+<script src="js/accessibility.js"></script>
+<script>
+(function(){
+  var f=document.getElementById('cform'); if(!f)return;
+  function v(id){return (document.getElementById(id).value||'').trim();}
+  function validate(){
+    var ok=true;
+    ['f-name','f-phone','f-email','f-msg'].forEach(function(id){
+      var el=document.getElementById(id),w=el.closest('.field');
+      if(!el.value.trim()){w.classList.add('err');ok=false;}else{w.classList.remove('err');}
+    });
+    var em=v('f-email'); if(em && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)){document.getElementById('f-email').closest('.field').classList.add('err');ok=false;}
+    var c=document.getElementById('f-consent'); c.closest('.consent').style.color=c.checked?'':'#C0392B'; if(!c.checked)ok=false;
+    return ok;
+  }
+  function bodyText(){
+    return 'פנייה מאתר בית הספר\n\nשם: '+v('f-name')+'\nטלפון: '+v('f-phone')+'\nדוא"ל: '+v('f-email')+'\nנושא: '+v('f-subject')+'\n\nהודעה:\n'+v('f-msg');
+  }
+  f.addEventListener('submit',function(e){
+    e.preventDefault(); if(!validate())return;
+    var subj='פנייה מאתר בית הספר — '+v('f-subject');
+    window.location.href='mailto:tichon@shitim.co.il?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(bodyText());
+    document.getElementById('cform-ok').classList.add('show');
+    document.getElementById('cform-ok').scrollIntoView({behavior:'smooth',block:'center'});
+    f.reset();
+  });
+})();
+</script>
+</body>
+</html>

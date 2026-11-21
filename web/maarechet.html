@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>מערכת שעות — דרכא שיטים</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.0.1/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page="maarechet">
+<div id="site-header"></div>
+
+<section class="pagehead"><div class="wrap">
+  <h1 class="display">מערכת שעות ולוחות זמנים</h1>
+  <p>בחרו כיתה לצפייה במערכת השבועית — או היכנסו למערכת iscool המלאה לשינויים, מבחנים, הודעות ואירועים מעודכנים בזמן אמת.</p>
+</div></section>
+
+<section class="sec" style="padding-bottom:30px"><div class="wrap">
+  <div class="sched-actions" style="margin-bottom:30px">
+    <a class="btn btn-clay" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><i class="ti ti-external-link"></i> התחברות למערכת iscool</a>
+    <a class="btn btn-ghost" href="https://web.mashov.info/students/#!/login/" target="_blank" rel="noopener"><i class="ti ti-school"></i> משוב</a>
+  </div>
+  <div class="sec-head" style="margin-bottom:16px"><span class="eyebrow">בחירת כיתה</span><h2 class="display" style="margin-bottom:6px">בחרו את הכיתה שלכם</h2></div>
+  <div class="class-pills">
+    <button class="cpill">ז'1</button><button class="cpill">ז'2</button><button class="cpill">ז'3</button>
+    <button class="cpill">ח'1</button><button class="cpill">ח'2</button><button class="cpill">ח'3</button>
+    <button class="cpill active">ט'1</button><button class="cpill">ט'2</button><button class="cpill">ט'3</button>
+    <button class="cpill">י'1</button><button class="cpill">י'2</button>
+    <button class="cpill">י"א1</button><button class="cpill">י"א2</button><button class="cpill">י"א3</button>
+    <button class="cpill">י"ב1</button><button class="cpill">י"ב2</button>
+  </div>
+</div></section>
+
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="head-row">
+    <div class="sec-head" style="margin-bottom:0"><span class="eyebrow" id="tt-class">כיתה ט'1</span><h2 class="display" style="margin-bottom:0">מערכת שבועית</h2></div>
+    <a class="btn btn-dark" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener" style="padding:10px 20px;font-size:15px">למערכת המעודכנת</a>
+  </div>
+  <div class="tt-wrap"><table class="timetable" id="tt"></table></div>
+  <div class="tt-legend">
+    <span><i style="background:var(--acacia-tint)"></i> מדעים ומתמטיקה</span>
+    <span><i style="background:var(--clay-tint)"></i> מדעי הרוח</span>
+    <span><i style="background:#FBEFD4"></i> אנגלית</span>
+    <span><i style="background:#ECEAE1"></i> אמנויות, חנ"ג וחינוך</span>
+  </div>
+  <p class="micro" style="text-align:right;margin-top:14px">* מערכת לדוגמה להמחשת העיצוב. המערכת המעודכנת, יומן השינויים ולוח המבחנים זמינים במערכת iscool.</p>
+</div></section>
+
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">מה יש במערכת</span><h2 class="display">כל מה שצריך במקום אחד</h2></div>
+  <div class="tiles">
+    <a class="tile" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><div class="ic"><i class="ti ti-table"></i></div><div><b>מערכת שעות</b><span>המערכת השבועית לכל כיתה.</span></div></a>
+    <a class="tile" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><div class="ic"><i class="ti ti-arrows-exchange"></i></div><div><b>מערכת עם שינויים</b><span>השיבוץ המעודכן להיום.</span></div></a>
+    <a class="tile" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><div class="ic"><i class="ti ti-history"></i></div><div><b>יומן שינויים</b><span>היעדרויות והחלפות מורים.</span></div></a>
+    <a class="tile" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><div class="ic"><i class="ti ti-clipboard-list"></i></div><div><b>לוח מבחנים</b><span>מועדי הבחנים והמתכונות.</span></div></a>
+    <a class="tile" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><div class="ic"><i class="ti ti-speakerphone"></i></div><div><b>הודעות כלליות</b><span>עדכונים שוטפים מההנהלה.</span></div></a>
+    <a class="tile" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><div class="ic"><i class="ti ti-list-details"></i></div><div><b>רשימת אירועים</b><span>טיולים, סיורים ופעילויות.</span></div></a>
+    <a class="tile" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><div class="ic"><i class="ti ti-calendar-event"></i></div><div><b>לוח אירועים</b><span>תצוגת יומן חודשית.</span></div></a>
+    <a class="tile" href="https://shitim.iscool.co.il/default.aspx?nh=1" target="_blank" rel="noopener"><div class="ic"><i class="ti ti-chalkboard"></i></div><div><b>תצוגת מורה</b><span>מערכת אישית לצוות ההוראה.</span></div></a>
+  </div>
+</div></section>
+
+<div id="site-footer"></div>
+<script src="js/layout.js"></script>
+<script src="js/accessibility.js"></script>
+<script>
+(function(){
+  var DAYS=["ראשון","שני","שלישי","רביעי","חמישי","שישי"];
+  var ROWS=[
+    {p:"1",a:"08:00",b:"08:45"},{p:"2",a:"08:45",b:"09:30"},{br:1},
+    {p:"3",a:"09:50",b:"10:35"},{p:"4",a:"10:35",b:"11:20"},{br:1},
+    {p:"5",a:"11:40",b:"12:25"},{p:"6",a:"12:25",b:"13:10"},{br:1},
+    {p:"7",a:"13:30",b:"14:15"},{p:"8",a:"14:15",b:"15:00"}
+  ];
+  var G={
+    "1":[["חינוך","art"],["מתמטיקה","sci"],["אנגלית","lang"],["מתמטיקה","sci"],["תנ״ך","hum"],["ספרות","hum"]],
+    "2":[["מתמטיקה","sci"],["אנגלית","lang"],["לשון","hum"],["פיזיקה","sci"],["אנגלית","lang"],["היסטוריה","hum"]],
+    "3":[["מדעים","sci"],["ספרות","hum"],["מתמטיקה","sci"],["אזרחות","hum"],["מדעי המחשב","sci"],["חנ״ג","art"]],
+    "4":[["מדעים","sci"],["תנ״ך","hum"],["גאוגרפיה","hum"],["אנגלית","lang"],["מדעי המחשב","sci"],["חנ״ג","art"]],
+    "5":[["אנגלית","lang"],["חנ״ג","art"],["היסטוריה","hum"],["לשון","hum"],["מתמטיקה","sci"],null],
+    "6":[["ספרות","hum"],["חנ״ג","art"],["אמנות","art"],["מדעים","sci"],["חינוך","art"],null],
+    "7":[["היסטוריה","hum"],["מדעי המחשב","sci"],["אנגלית","lang"],["ספרות","hum"],["פיזיקה","sci"],null],
+    "8":[null,["מדעי המחשב","sci"],null,["אמנות","art"],null,null]
+  };
+  var h='<thead><tr><th class="per">שעה</th>';
+  DAYS.forEach(function(d){h+='<th>'+d+'</th>';});
+  h+='</tr></thead><tbody>';
+  ROWS.forEach(function(r){
+    if(r.br){ h+='<tr class="brkrow"><td class="per">הפסקה</td><td colspan="6">הפסקה</td></tr>'; return; }
+    h+='<tr><td class="per"><b>'+r.p+'</b>'+r.a+'–'+r.b+'</td>';
+    var row=G[r.p]||[];
+    for(var i=0;i<6;i++){ var c=row[i];
+      h+= c ? '<td class="cell '+c[1]+'"><div class="s">'+c[0]+'</div></td>' : '<td class="cell free">—</td>';
+    }
+    h+='</tr>';
+  });
+  h+='</tbody>';
+  document.getElementById('tt').innerHTML=h;
+  document.querySelectorAll('.cpill').forEach(function(p){
+    p.addEventListener('click',function(){
+      document.querySelectorAll('.cpill').forEach(function(x){x.classList.remove('active');});
+      this.classList.add('active');
+      document.getElementById('tt-class').textContent='כיתה '+this.textContent.trim();
+    });
+  });
+})();
+</script>
+</body>
+</html>
